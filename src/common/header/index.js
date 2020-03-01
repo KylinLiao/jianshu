@@ -8,10 +8,31 @@ import {
     Nav ,
     NavItem,
     SearchWraper,
+    SearchInfo,
+    SearchItem,
     NavSearch,
     Addition,
     Button
 } from './style'
+
+const getSearchInfo = (show) => {
+    if (show) {
+        return (
+            <SearchInfo >
+                <SearchItem>
+                    钢铁侠
+                </SearchItem>
+                <SearchItem>
+                    蜘蛛侠
+                </SearchItem>
+                <SearchItem>
+                    蝙蝠侠
+                </SearchItem>
+        </SearchInfo>
+        );
+    }
+    return null;
+}
 
 const Header = (props) => {
     return (
@@ -38,6 +59,7 @@ const Header = (props) => {
                             </NavSearch>
                     </CSSTransition>
                     <span className={props.focused === true ? 'iconfont focused':'iconfont'}>&#xe62b;</span>
+                    {getSearchInfo(props.focused)}
                 </SearchWraper>
             </Nav>
             <Addition>
@@ -54,7 +76,7 @@ const Header = (props) => {
 
 const mapStateToProps = (state) =>{
     return {
-        focused:state.header.focused
+        focused:state.get('header').get('focused')
     };
 }
 
