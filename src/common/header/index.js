@@ -1,7 +1,8 @@
 import React  from 'react';
 import { connect } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
-import { 
+import { actionCreators } from './store';
+import {
     HeaderWrapper,
     Logo,
     Nav ,
@@ -29,7 +30,7 @@ const Header = (props) => {
                         timeout = {200}
                         classNames = "slide"
                     >
-                            <NavSearch 
+                            <NavSearch
                                 className = {props.focused === true?'focused':''}
                                 onFocus = {props.searchFocus}
                                 onBlur = {props.searchBlur}
@@ -53,22 +54,18 @@ const Header = (props) => {
 
 const mapStateToProps = (state) =>{
     return {
-        focused:state.focused
+        focused:state.header.focused
     };
 }
 
 const mapDispathToProps = (dispatch) => {
     return {
         searchFocus() {
-            const action = {
-                type:"search_focus"
-            }
+            const  action = actionCreators.searchFocus();
             dispatch(action);
         },
         searchBlur() {
-            const action = {
-                type:"search_blur"
-            };
+            const action = actionCreators.searchBlur();
             dispatch(action);
         }
     }
