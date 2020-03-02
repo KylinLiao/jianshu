@@ -98,7 +98,6 @@ export const SearchInfo = styled.div`
 
 export const SearchItem = styled.span`
     display:block;
-    width:50px;
     color:#777;
     margin-left:15px;
     margin-top:10px;
