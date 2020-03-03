@@ -24,18 +24,18 @@ import {
                         <ItemInfo>
                             <ItemDetail>
                                 <span class="iconfont diamond">&#xe6c3;</span>
-                                <span class="diamond">9.8</span>
+                                <span class="diamond number">9.8</span>
                             </ItemDetail>
                             <ItemDetail>
                                 麦田大豆
                             </ItemDetail>
                             <ItemDetail>
                                 <span class="iconfont">&#xe62a;</span>
-                                <span>11</span>
+                                <span class="number">11</span>
                             </ItemDetail>
                             <ItemDetail>
                                 <span class="iconfont">&#xe64f;</span>
-                                <span>98</span>
+                                <span class="number">98</span>
                             </ItemDetail>
 
                         </ItemInfo>
@@ -55,18 +55,19 @@ import {
                         <ItemInfo>
                             <ItemDetail>
                                 <span class="iconfont diamond">&#xe6c3;</span>
-                                <span class="diamond">9.8</span>
+                                <span class="diamond number">9.8</span>
                             </ItemDetail>
                             <ItemDetail>
-                                麦田大豆
+                               <span> 麦田大豆</span>
+                               <span></span>
                             </ItemDetail>
                             <ItemDetail>
                                 <span class="iconfont">&#xe62a;</span>
-                                <span>11</span>
+                                <span class="number">11</span>
                             </ItemDetail>
                             <ItemDetail>
                                 <span class="iconfont">&#xe64f;</span>
-                                <span>98</span>
+                                <span class="number">98</span>
                             </ItemDetail>
 
                         </ItemInfo>

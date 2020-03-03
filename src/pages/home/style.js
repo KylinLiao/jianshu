@@ -68,8 +68,13 @@ export const ItemInfo = styled.div`
     .diamond {
         color:#ea6f5a!important
     }
+    .number {
+        text-align:center;
+        margin-left:2px;
+    }
     
 `;
 export const ItemDetail = styled.span`
     margin:5px 15px 5px 0;
+    text-align:center;
 `;
