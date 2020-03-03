@@ -84,17 +84,16 @@ const mapStateToProps = (state) =>{
     };
 }
 
-const mapDispathToProps = (dispatch) => {
+const mapDispachToProps = (dispatch) => {
     return {
         searchFocus() {
-          
             dispatch(actionCreators.searchHistory());
             dispatch(actionCreators.searchFocus());
         },
         searchBlur() {
-            dispatch(actionCreators.searchFocus());
+            dispatch(actionCreators.searchBlur());
         }
     }
 }
 
-export default connect(mapStateToProps,mapDispathToProps)(Header);
+export default connect(mapStateToProps,mapDispachToProps)(Header);
