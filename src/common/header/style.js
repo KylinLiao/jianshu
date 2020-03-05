@@ -92,6 +92,7 @@ export const SearchInfo = styled.div`
     top:100%;
     width:220px;
     border-radius:3px;
+    background-color:#ffffff;
     overflow:hidden;
     box-shadow:0 0 8px rgba(0,0,0,.2);
 `;

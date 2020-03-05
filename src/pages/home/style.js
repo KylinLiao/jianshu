@@ -20,7 +20,7 @@ export const HomeLeft = styled.div`
 `;
 
 export const HomeRight = styled.div`
-    width:24opx;
+    width:290px;
     float:right;
 `;
 
@@ -72,9 +72,81 @@ export const ItemInfo = styled.div`
         text-align:center;
         margin-left:2px;
     }
-    
 `;
 export const ItemDetail = styled.span`
     margin:5px 15px 5px 0;
     text-align:center;
+`;
+
+export const SpecialWrapper = styled.div`
+    height:200px;
+`;
+
+export const SpecialItem = styled.div`
+    height:50px;
+    margin:5px;
+    background-size:contain;
+    .item-img {
+        height:50px;
+    }
+`;
+
+export const WriterWrapper = styled.div`
+    height:300px;
+    margin-top:50px;
+    .recommend {
+        font-size:14px;
+        color:#969696;
+        overflow:hidden;
+    }
+    .recommend-writer {
+        margin:10px;
+        float:left;
+    }
+    .change-writer {
+        float:right;
+        margin:10px;
+    }
+    .writer-img {
+        display:inline-block;
+        width:50px;
+        height:50px;
+        border-radius:25px;
+    }
+`;
+
+export const WriterItem = styled.div`
+    height:80px;
+    margin:0 auto;
+    overflow:hidden;
+`;
+
+export const WriterPic = styled.div`
+    float:left
+`;
+export const WriterInfoWrapper= styled.div`
+    float:right;
+    height:50px;
+    width:224px;
+`;
+
+export const WriterTitle = styled.span`
+    font-size:14px;
+    margin-right:6px;
+    margin-top:6px;
+    float:left;
+`;
+export const WriterAttention = styled.span`
+    font-size:13px;
+    margin-right:6px;
+    margin-top:6px;
+    color:#42c02e;
+    float:right;
+`;
+
+export const WriterInfo = styled.div`
+    font-size:12px;
+    color:#969696;
+    margin-top:35px;
+    clear:both;
 `;

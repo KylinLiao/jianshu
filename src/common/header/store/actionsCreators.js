@@ -11,7 +11,7 @@ export const searchBlur = () => ({
   type :constants.SEARCH_BLUR
 });
 
-export const search = (data) => (
+const search = (data) => (
   {
     type:contants.SEARCH_HISTORY,
     data:fromJS(data)

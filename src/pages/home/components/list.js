@@ -23,19 +23,19 @@ import {
                         </ItemDesc>
                         <ItemInfo>
                             <ItemDetail>
-                                <span class="iconfont diamond">&#xe6c3;</span>
-                                <span class="diamond number">9.8</span>
+                                <span className="iconfont diamond">&#xe6c3;</span>
+                                <span className="diamond number">9.8</span>
                             </ItemDetail>
                             <ItemDetail>
                                 麦田大豆
                             </ItemDetail>
                             <ItemDetail>
-                                <span class="iconfont">&#xe62a;</span>
-                                <span class="number">11</span>
+                                <span className="iconfont">&#xe62a;</span>
+                                <span className="number">11</span>
                             </ItemDetail>
                             <ItemDetail>
-                                <span class="iconfont">&#xe64f;</span>
-                                <span class="number">98</span>
+                                <span className="iconfont">&#xe64f;</span>
+                                <span className="number">98</span>
                             </ItemDetail>
 
                         </ItemInfo>
@@ -54,20 +54,20 @@ import {
                         </ItemDesc>
                         <ItemInfo>
                             <ItemDetail>
-                                <span class="iconfont diamond">&#xe6c3;</span>
-                                <span class="diamond number">9.8</span>
+                                <span className="iconfont diamond">&#xe6c3;</span>
+                                <span className="diamond number">9.8</span>
                             </ItemDetail>
                             <ItemDetail>
                                <span> 麦田大豆</span>
                                <span></span>
                             </ItemDetail>
                             <ItemDetail>
-                                <span class="iconfont">&#xe62a;</span>
-                                <span class="number">11</span>
+                                <span className="iconfont">&#xe62a;</span>
+                                <span className="number">11</span>
                             </ItemDetail>
                             <ItemDetail>
-                                <span class="iconfont">&#xe64f;</span>
-                                <span class="number">98</span>
+                                <span className="iconfont">&#xe64f;</span>
+                                <span className="number">98</span>
                             </ItemDetail>
 
                         </ItemInfo>
